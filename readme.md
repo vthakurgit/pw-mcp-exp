@@ -20,9 +20,12 @@ npx playwright test tests/hrmDemoTest.spec.ts --headed --project=chromium
 ### Prompt used 
 For this excercise with Playwright MCP server following prompt is used:
 
+
 ```
-After login to hrm website(https://opensource-demo.orangehrmlive.com), with user 'admin' and password 'admin123', give me list of importat elements I can validate on the dashboard or home page.
+After login to hrm website(https://opensource-demo.orangehrmlive.com),
+with user 'admin' and password 'admin123', give me list of importat elements I can validate on the dashboard or home page.
 ```
+
 
 Playwright MCP given me suggessions for critical elements to validated on the page and written test, which had few errors but it will be corrected in minimal efforts.
 
