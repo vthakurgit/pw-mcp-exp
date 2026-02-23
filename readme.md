@@ -1,10 +1,10 @@
 # MCP Server Examples
 
-This Project excercise the Playwright MCP Server automatic code generation using Github Copilot using Agent mode.
+This Project excercise the Playwright MCP Server automatic code generation by Github Copilot using Agent mode.
 
 ## Install MCP Server:
 
-Multiple ways to install listed [here](https://github.com/mcp/microsoft/playwright-mcp) listing CLI method as this worked for me:
+Multiple ways to install mcp server are offically listed [here](https://github.com/mcp/microsoft/playwright-mcp). Below CLI method is most useful as this worked for me, got some npm auth related errors by other methods:
 
 ## For VS Code
 
@@ -28,6 +28,6 @@ with username 'admin' and password 'admin123',
 give me list of importat elements I can validate on the dashboard or home page.
 ```
 
-Playwright MCP given me suggessions for critical elements to validated on the page and written test, which had few errors but it will be corrected in minimal efforts.
+Playwright MCP gave me suggessions for critical elements to validated on the page and written test, which had few errors on 1st attempt but I was able to be correct them easily with minimal efforts.
 
 ![MCP Server Example](_assets/MCPServerExcercise.png)

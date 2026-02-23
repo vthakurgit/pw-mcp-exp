@@ -2,6 +2,7 @@
  * HRM Demo App - Login and Dashboard Validation
  * This test suite covers the login functionality and dashboard validation for the OrangeHRM demo application.
  * It includes tests for successful login, dashboard element visibility, and logout functionality.
+ * @author Vinay Thakur
  */
 
 import { test, expect } from "@playwright/test";
